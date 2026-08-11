@@ -1,0 +1,20 @@
+# Normalize text files and store them with LF line endings.
+* text=auto eol=lf
+
+# Windows-native scripts retain CRLF line endings.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary files must not be modified by Git.
+*.ico binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.pdf binary
+*.iso binary
+*.img binary
+*.gz binary
+*.xz binary
+*.zip binary

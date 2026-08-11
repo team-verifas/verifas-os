@@ -1,0 +1,46 @@
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generic build output
+build/
+dist/
+out/
+
+# Debian live-build working directories and generated artifacts
+.build/
+cache/
+chroot/
+chroot.*
+binary/
+binary.*
+source/
+source.*
+
+# Generated disk and virtual-machine images
+*.iso
+*.img
+*.raw
+*.qcow2
+*.vdi
+*.vmdk
