@@ -55,3 +55,24 @@ und live-build grundsätzlich funktioniert.
 Buildbefehle, Werkzeugversionen, Prüfsummen, Testergebnisse und bekannte
 Einschränkungen werden im Repository oder in den zugehörigen Buildartefakten
 dokumentiert.
+
+## Buildnachweis 001
+
+- Datum: 7. November 2026
+- Entwicklungsstand: M1 Bootstrap
+- Konfigurationscommit: a664d10
+- Build-ID: 20261107T101302Z
+- ISO: verifas-os-dev-amd64.hybrid.iso
+- Größe: 385875968 Bytes
+- SHA-256: 98232333a9dd67c6713c84a0057588a0fd50ac92f9eed4fac2111e4b00b6ef37
+- Debian: 13.7 (trixie)
+- Architektur: amd64
+- BIOS-Start: erfolgreich
+- UEFI-Start: erfolgreich
+- Secure Boot: noch nicht getestet
+- Freigabe: Entwicklungsprototyp, nicht für echte Beweismittel
+
+Die ISO wurde aus dem noch nicht committeten Arbeitsstand erzeugt, dessen
+unveränderte Konfiguration anschließend als Commit a664d10 gesichert wurde.
+Vor einer Veröffentlichung muss der Build erneut aus einem sauberen,
+eindeutig referenzierten Commit erzeugt werden.
