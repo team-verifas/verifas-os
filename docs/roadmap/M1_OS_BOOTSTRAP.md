@@ -76,3 +76,29 @@ Die ISO wurde aus dem noch nicht committeten Arbeitsstand erzeugt, dessen
 unveränderte Konfiguration anschließend als Commit a664d10 gesichert wurde.
 Vor einer Veröffentlichung muss der Build erneut aus einem sauberen,
 eindeutig referenzierten Commit erzeugt werden.
+
+## Abschluss M1
+
+Der Bootstrap wurde am 7. November 2026 mit Buildnachweis 002 aus dem
+sauberen Commit `cd156ff9e768ba8e9450ed73b5653e8c0719c4dc` erneut erzeugt und
+erfolgreich mit BIOS sowie UEFI getestet.
+
+Der vollständige Nachweis einschließlich Buildprotokoll und Paketmanifest
+befindet sich unter `docs/build-evidence/m1-002/`.
+
+M1 bestätigt ausschließlich die technische Live-Build-Grundlage. Das Image
+ist noch nicht für forensische Untersuchungen oder echte Beweismittel
+freigegeben.
+
+## Abschluss M1
+
+Der Bootstrap wurde am 7. November 2026 mit Buildnachweis 002 aus dem
+sauberen Commit `cd156ff9e768ba8e9450ed73b5653e8c0719c4dc` erneut erzeugt und
+erfolgreich mit BIOS sowie UEFI getestet.
+
+Der vollständige Nachweis einschließlich Buildprotokoll und Paketmanifest
+befindet sich unter `docs/build-evidence/m1-002/`.
+
+M1 bestätigt ausschließlich die technische Live-Build-Grundlage. Das Image
+ist noch nicht für forensische Untersuchungen oder echte Beweismittel
+freigegeben.
