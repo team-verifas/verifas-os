@@ -1,0 +1,15 @@
+ca-certificates
+curl
+file
+iproute2
+less
+linux-image-amd64
+live-boot
+live-config
+live-config-systemd
+nano
+network-manager
+openssh-client
+procps
+sudo
+systemd-sysv
